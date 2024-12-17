@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name": "Cappucino",
+        "price": 5.00,
+        "image": "images/Cappucino.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Mocha",
+        "price": 5.00,
+        "image": "images/Mocha.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Expresso",
+        "price": 5.00,
+        "image": "images/Expresso.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "Caramel Machiatto",
+        "price": 5.00,
+        "image": "images/Caramel Machiatto.jpg"
+    },
+
+    {
+        "id": 5,
+        "name": "Hot Chocolate",
+        "price": 5.00,
+        "image": "images/Hot Chocolate.jpg"
+    },
+
+    {
+        "id": 6,
+        "name": "Iced Chocolate",
+        "price": 7.00,
+        "image": "images/Iced Chocolate.jpg"
+    },
+
+    {
+        "id": 7,
+        "name": "Ice Matcha Green Tea",
+        "price": 6.00,
+        "image": "images/Ice Matcha Green Tea.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "Iced Latte",
+        "price": 7.00,
+        "image": "images/Iced Latte.jpg"
+    },
+
+    {
+        "id": 9,
+        "name": "Iced Mocha",
+        "price": 7.00,
+        "image": "images/Iced Mocha.jpg"
+    },
+
+    {
+        "id": 10,
+        "name": "Crunch Choc Cake (slice)",
+        "price": 9.00,
+        "image": "images/Crunch Choc Cake (slice).jpg"
+    },
+
+    {
+        "id": 11,
+        "name": "Awesome Blackout (slice)",
+        "price": 9.00,
+        "image": "images/Awesome Blackout (slice).jpg"
+    },
+
+    {
+        "id": 12,
+        "name": "Cheesecake (slice)",
+        "price": 8.00,
+        "image": "images/Cheesecake (slice).jpg"
+    },
+
+    {
+        "id": 13,
+        "name": "Red Velvet Cake (slice)",
+        "price": 7.00,
+        "image":"images/Red Velvet Cake (slice).jpeg"
+    },
+    {
+        "id": 14,
+        "name": "Strawberry Lemon Cake (slice)",
+        "price": 8.00,
+        "image": "images/Strawberry Lemon Cake (slice).jpg"
+    },
+
+    {
+        "id": 15,
+        "name": "Classic Croissant",
+        "price": 7.50,
+        "image": "images/Classic Croissant.jpg"
+    },
+
+    {
+        "id": 16,
+        "name": "Choc Chip Cookies",
+        "price": 7.50,
+        "image": "images/Choc Chip Cookies.jpg"
+    }
+]

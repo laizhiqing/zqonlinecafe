@@ -1,0 +1,398 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartholomew Café</title>
+    
+    <!--Linking Font Awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!--Header / Navbar=-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#home" class="nav-logo">
+                <h2 class="logo-text">Bartholomew Café</h2>
+             </a>
+
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#review" class="nav-link">Review</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#order" class="nav-link">Order</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <div class="nav-button">
+                    <a href="cart.html" class="nav-items">SHOP NOW</a>
+                </div>
+            </ul>
+
+<button id="menu-open-button" class="fas fa-bars"></button>
+</nav>
+</header>
+
+<main>
+    <!--Hero section-->
+    <section class="hero-section" id="home">
+        <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">Best Coffee</h2>
+                <h3 class="subtitle">There are many best dessert here!</h3>
+                <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+
+                <div class="buttons">
+                    <a href="cart.html" class="button order-now">Order Now</a>
+                    <a href="#contact" class="button contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="images/hero-img.jpg" alt="Hero" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About section-->
+     <section class="about-section" id="about">
+      <div class="section-content">
+
+        <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">We pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. We're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort. </p>
+                    <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+     </div>
+    </section>
+
+    <!-- Menu section-->
+    <section class="menu-section" id="menu">
+    <h2 class="section-title">Our Menu</h2>
+        <div class="section-content">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Cappucino.jpg" alt="Menu" class="menu-image">
+                        <h3>Cappucino</h3>
+                        <div class="price">RM5.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Mocha.jpg" alt="Menu" class="menu-image">
+                        <h3>Mocha</h3>
+                        <div class="price">RM5.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Expresso.jpg" alt="Menu" class="menu-image">
+                        <h3>Expresso</h3>
+                        <div class="price">RM5.00</div>
+                    </a>
+                </li>
+
+
+                <li class="menu-item">
+                     <a href="#" class="box">
+                        <img src="images/Caramel Machiatto.jpg" alt="Menu" class="menu-image">
+                        <h3>Caramel Machiatto</h3>
+                        <div class="price">RM5.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Hot Chocolate.jpg" alt="Menu" class="menu-image">
+                        <h3>Hot Chocolate</h3>
+                        <div class="price">RM5.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Iced Chocolate.jpg" alt="Menu" class="menu-image">
+                        <h3>Iced Chocolate</h3>
+                        <div class="price">RM7.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Ice Matcha Green Tea.jpg" alt="Menu" class="menu-image">
+                        <h3>Ice Matcha Green Tea</h3> 
+                        <div class="price">RM6.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Iced Latte.jpg" alt="Menu" class="menu-image">
+                        <h3>Iced Latte</h3>
+                        <div class="price">RM7.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Iced Mocha.jpg" alt="Menu" class="menu-image">
+                        <h3>Iced Mocha</h3>
+                        <div class="price">RM7.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Crunch Choc Cake (slice).jpg" alt="Menu" class="menu-image">
+                        <h3>Crunch Choc Cake (slice)</h3>
+                        <div class="price">RM9.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Awesome Blackout (slice).jpg" alt="Menu" class="menu-image">
+                        <h3>Awesome Blackout (slice)</h3>
+                        <div class="price">RM9.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Cheesecake (slice).jpg" alt="Menu" class="menu-image">
+                        <h3>Cheesecake (slice)</h3>
+                        <div class="price">RM8.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Red Velvet Cake (slice).jpeg" alt="Menu" class="menu-image">
+                        <h3>Red Velvet Cake (slice)</h3>
+                        <div class="price">RM7.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Strawberry Lemon Cake (slice).jpg" alt="Menu" class="menu-image">
+                        <h3>Strawberry Lemon Cake (slice)</h3>
+                        <div class="price">RM8.00</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Classic Croissant.jpg" alt="Menu" class="menu-image">
+                        <h3>Classic Croissant</h3>
+                        <div class="price">RM7.50</div>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#" class="box">
+                        <img src="images/Choc Chip Cookies.jpg" alt="Menu" class="menu-image">
+                        <h3>Choc Chip Cookie</h3>
+                        <div class="price">RM7.50</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+     </section>
+
+     <!--Review section-->
+     <section class="review" id="review">
+        <h2 class="section-title">Customer's Review</h2>
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review img1.jpg" alt="Review" class="review-image">
+                        <div class="user-info">
+                            <h3>Charlie Zhou Shen</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Such a great place with very friendly staff and of course excellent food, coffee and desserts! Highly Recommend this place for all visitors.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review img2.jpg" alt="Review" class="review-image">
+                        <div class="user-info">
+                            <h3>Bai Lu</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>It's a great experience. The ambiance is very welcoming and charming. Amazing drinks, food and service. Staff are extremely knowledgeable and make great recommendations.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review img3.jpg" alt="Review" class="review-image">
+                        <div class="user-info">
+                            <h3>Zhou Ye</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Good service. Very fresh and delicious breakfast. Reasonable price. The food was perfectly cooked. It is worth for wait.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review img4.jpg" alt="Review" class="review-image">
+                        <div class="user-info">
+                            <h3>Tian Xiao Xin</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>I had a great time eating yummy all day breakfast here. The waiters here are friendly. I really like your interior design here!</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--Order section-->
+     <section class="order" id="order">
+        <h2 class="section-title">Order Now</h2>
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Name:</span>
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+
+                <div class="input">
+                    <span>Your Number:</span>
+                    <input type="number" placeholder="Enter Your Number">
+                </div>
+
+                <div class="inputBox">
+                <div class="input">
+                    <span>Your Order:</span>
+                    <input type="text" placeholder="Enter Your Order">
+                </div>
+
+                <div class="input">
+                    <span>Additional Food:</span>
+                    <input type="test" placeholder="Extra With Food">
+                </div>
+
+                <div class="inputBox">
+                <div class="input">
+                    <span>How Much:</span>
+                    <input type="number" placeholder="How Many Orders">
+                </div>
+
+                <div class="input">
+                    <span>Date And Time:</span>
+                    <input type="datetime-local">
+                </div>
+
+                <div class="inputBox">
+                <div class="input">
+                    <span>Your Address:</span>
+                    <textarea name="" placeholder="Enter Your Address" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input">
+                    <span>Your Message:</span>
+                    <textarea name="" placeholder="Enter Your Message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Order Now" class="button">
+        </form>
+     </section>
+
+     <!--Footer section-->
+     <section class="footer" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+            <div class="box-container">
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#review">Review</a>
+                    <a href="#order">Order</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <a href="#">+123-456 7890</a>
+                    <a href="#">+011-223 3344</a>
+                    <a href="#">+012-345-6789</a>
+                    <a href="#">funnycafe@gmail.com</a>
+                </div>
+
+                <div class="box">
+                    <h3>Follow Us</h3>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+     </section>
+</main>
+
+<footer>
+    <p>Copyright © BartholomewCafé 2024 All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

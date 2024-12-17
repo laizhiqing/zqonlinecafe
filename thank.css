@@ -1,0 +1,108 @@
+/*Importing Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Homemade+Apple&family=Protest+Revolution&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Homemade+Apple&family=Protest+Revolution&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+.logo-text{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Homemade Apple", cursive;
+}
+
+:root{
+    /*Colors*/
+    --white-color:#FFFFFF;
+    --dark-color:#000000;
+    --primary-color:#003366;
+    --light-color: #3471af;
+    --medium-color: #40658a;
+    --haha-color: #607f9c;
+    --secondary-color:#999999;
+    --light-pink-color:#f4f4f5;
+    --medium-gray-color:#cccccc;
+
+    /*Font size*/
+    --font-size-s:0.9rem;
+    --font-size-n:1rem;
+    --font-size-m:1.12rem;
+    --font-size-l:1.5rem;
+    --font-size-xl:2.3rem;
+    --font-size-xxl:2.3rem;
+
+    /*Font weight*/
+    --font-weight-normal:400;
+    --font-weight-medium:500;
+    --font-weight-semibold:600;
+    --font-weight-bold:700;
+
+    /*Border radius*/
+    --border-radius-s:8px;
+    --border-radius-m:30px;
+    --border-radius-circle:50%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    width: 200px;
+    margin: -30px 0 -20px 0;
+}
+
+.back {
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg,  #607f9c 60%, #40658a 40.1%);
+    padding-bottom: 70px;
+}
+.back h1 {
+    font-size:50px;
+    margin:20px 20px 10px 20px;
+    font-family: "Shadows Into Light", cursive;
+}
+.back p{
+    color:white;
+    font-size:20px;
+    margin:20px 20px 30px 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.back a {
+    background-color: var(--primary-color);
+    border:none;
+    color:var(--light-pink-color);
+    padding: 10px 20px;
+    border-radius:5px;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.back a:hover{
+    color:var(--dark-color);
+    background-color: var(--medium-color);
+    border: 1px solid var(--medium-color);
+    padding: 10px 20px;
+    border-radius:5px;
+}
